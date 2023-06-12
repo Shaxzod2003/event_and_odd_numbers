@@ -13,4 +13,4 @@ var_int=var_int//10
 
 d4=var_int%10
 var_int=var_int//10
-print(d3,d1)
+print((d1+1)%2+(d2+1)%2+(d3+1)%2+(d4+1)%2)
